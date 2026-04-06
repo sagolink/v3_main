@@ -11,14 +11,14 @@ import SubBanner from './components/SubBanner';
 export const metadata = {
   title: '사고링크',
   description: '보험금, 사고링크와 함께 쉽고 빠르게 잘 받자!',
-  keywords: '사고링크, 보험금, 합의금, 교통사고',
+  keywords: '사고링크, 보험금, 합의금, 교통사고, 질병사고, 일상사고',
   icons: {
     icon: '/sagolink-logo.svg', // SVG 파일 경로
   },
   openGraph: {
     title: '사고링크',
     description: '보험금 잘 받으려면 오직 사고링크',
-    images: ['/sagolink.svg'],
+    images: ['/sagolink.png'],
   },
 };
 
