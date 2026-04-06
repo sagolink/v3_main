@@ -41,7 +41,6 @@ export default function AppPreviews() {
               {'1분 만에, \nAI 예상 보험금 알아보기'}
             </h3>
             <div className="font-14-medium lg:text-lg text-gray-500 lg:leading-8 whitespace-pre-wrap text-center lg:text-left">
-              {}
               <p>간단하게 사고 내용 입력해서 예상 보상금 확인해 보세요.</p>
               <p>최신 데이터와 AI를 기반으로 신뢰도 높은 결과를 제공해요.</p>
               <p>어렵고 번거로운 보험금, 이제 사고링크에 맡기면 끝!</p>
