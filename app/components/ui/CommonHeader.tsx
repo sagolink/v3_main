@@ -17,7 +17,6 @@ export default function CommonHeader() {
     { href: '/traffic', label: '교통사고', id: 1 },
     { href: '/daily', label: '일상사고', id: 2 },
     { href: '/illness', label: '질병사고', id: 3 },
-    { href: '/hospitals', label: '병원예약', id: 4 },
   ];
 
   const [mounted, setMounted] = useState<boolean>(false);
@@ -53,7 +52,12 @@ export default function CommonHeader() {
             }}
             className="cursor-pointer h-fit w-fit"
           >
-            <Image src="/hospitals/arrow_left.svg" width={24} height={24} alt="arrowLeft" />
+            <Image
+              src="/hospitals/arrow_left.svg"
+              width={24}
+              height={24}
+              alt="arrowLeft"
+            />
           </div>
         </div>
       </div>
