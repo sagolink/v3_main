@@ -1,10 +1,39 @@
-import Image from 'next/image';
+import { cn } from '@/lib/utils';
+
+import MainBanner from './components/MainBanner';
+import AppPreviews from './components/AppPreviews';
+import SagolinkSteps from './components/SagolinkSteps';
+import SagolinkBenefits from './components/SagolinkBenefits';
+import SagolinkCategories from './components/SagolinkCategories';
+import SagolinkYoutube from './components/SagolinkYoutube';
+import SubBanner from './components/SubBanner';
+
+export const metadata = {
+  title: '사고링크',
+  description: '보험금, 사고링크와 함께 쉽고 빠르게 잘 받자!',
+  keywords: '사고링크, 보험금, 합의금, 교통사고',
+  icons: {
+    icon: '/sagolink-logo.svg', // SVG 파일 경로
+  },
+  openGraph: {
+    title: '사고링크',
+    description: '보험금 잘 받으려면 오직 사고링크',
+    images: ['/sagolink.svg'],
+  },
+};
 
 export default function Home() {
-  const test = { a: 1, b: 2 };
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <div className="bg-red-500 text-white p-4 font-40-extrabold">테스트</div>
+    <div className={cn('relative flex flex-col items-center')}>
+      <div className={cn('flex flex-col items-center h-full w-full')}>
+        <MainBanner />
+        <AppPreviews />
+        <SagolinkSteps />
+        <SagolinkBenefits />
+        <SagolinkCategories />
+        <SagolinkYoutube />
+        <SubBanner />
+      </div>
     </div>
   );
 }
