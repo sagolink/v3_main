@@ -16,7 +16,7 @@ export default function SagolinkYoutube() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }} // 20% 정도 보이면 실행
           transition={{ duration: 1, ease: 'easeOut' }}
-          className="text-white text-2xl lg:text-4xl sm:leading-14 font-bold whitespace-pre-wrap text-center text-left w-full max-w-[328px] lg:max-w-full m-auto"
+          className="text-white text-2xl lg:text-4xl sm:leading-14 font-bold whitespace-pre-wrap text-left w-full max-w-[328px] lg:max-w-full m-auto"
         >
           {'내 보험사보다\n내 편에서 도와주는 사고링크'}
         </motion.div>
